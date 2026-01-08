@@ -1,6 +1,14 @@
 # Study-Habits-and-Activities-of-Students-Analysis
 
+## Introduction
 
+This project is about determining where a balance between how students spend their day and having moderate to low stress levels, while also kepping good grades. It looks at how different students spend their day (study time, extracirricular time, sleep time, etc.) and their gpa and stress level. The goal to to try to use the hours spent each day and come up with a predition for how their GPA will be, as well as their stress level. 
+
+For this project, I use regression alghorthims to determine what the students GPA will be based on their distribution of hours in the day, and I use classification models to determine stress levels on the same data. 
+
+For the regression modeling, I trained multiple models, but the Linear Regression model so far has achieved the highest R2 score of 0.56. 
+
+For the classification modeling, I have started with K Nearest Neighbors (KNN), as I believe this model is the best choice, as I am trying to determine which class (low, moderate, or high stress level) a student would belong to based on how they spend their day. 
 
 ## Problem Statement
 
